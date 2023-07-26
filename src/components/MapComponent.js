@@ -16,7 +16,7 @@ const MapComponent = () => {
                         <Polyline positions={selectedRoute} color="blue" />
                         {selectedRoute.map((point, index) => (
                             <Marker key={index} position={point}>
-                                <Popup>Point {index + 1}</Popup>
+                                <Popup>Балл {index + 1}</Popup>
                             </Marker>
                         ))}
                     </>
